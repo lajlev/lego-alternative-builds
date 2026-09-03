@@ -79,7 +79,7 @@ window.BUILDS = [
     "blurb": "A three-storey town house with a street-level bar and a jeweler's shop.",
     "url": "https://rebrickable.com/mocs/MOC-48599/Moe%20Brickman/10698-bar-and-jeweler-store-in-a-town-house/",
     "image": "builds/10698-bar-and-jeweler-store-in-a-town-house/image.jpg",
-    "instructions": null,
+    "instructions": "builds/10698-bar-and-jeweler-store-in-a-town-house/instructions.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-48599/Moe%20Brickman/10698-bar-and-jeweler-store-in-a-town-house/"
   },
   {
@@ -326,7 +326,7 @@ window.BUILDS = [
     "blurb": "An autumn 4x12 scene of orange and brown trees shedding their leaves.",
     "url": "https://rebrickable.com/mocs/MOC-53396/BrickBrush/fall/",
     "image": "builds/10698-fall/image.png",
-    "instructions": null,
+    "instructions": "builds/10698-fall/instructions.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-53396/BrickBrush/fall/"
   },
   {
@@ -495,7 +495,7 @@ window.BUILDS = [
     "blurb": "A 4x12 coastal scene with pines, dunes and gentle turquoise shallows.",
     "url": "https://rebrickable.com/mocs/MOC-54208/BrickBrush/pine-beach/",
     "image": "builds/10698-pine-beach/image.png",
-    "instructions": null,
+    "instructions": "builds/10698-pine-beach/instructions.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-54208/BrickBrush/pine-beach/"
   },
   {
