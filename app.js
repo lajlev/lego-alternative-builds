@@ -58,7 +58,10 @@
     var ins = primaryInstructions(b);
     return (
       '<article class="card fade-in">' +
-        '<div class="thumb"><img loading="lazy" src="' + esc(b.image) + '" alt="LEGO render of ' + esc(b.title) + '"></div>' +
+        '<div class="thumb"><img loading="lazy" tabindex="0" role="button" ' +
+          'aria-label="View ' + esc(b.title) + ' full screen" ' +
+          'data-full="' + esc(b.image) + '" data-caption="' + esc(b.title + " — by " + b.creator) + '" ' +
+          'src="' + esc(b.image) + '" alt="LEGO render of ' + esc(b.title) + '"></div>' +
         '<div class="card-body">' +
           "<h3>" + esc(b.title) + "</h3>" +
           '<p class="by">by ' + esc(b.creator) + "</p>" +
@@ -103,7 +106,10 @@
         "<p>One alternative model from the 10698 box, picked at random. Not feeling it? Shuffle again.</p>" +
       "</div>" +
       '<section class="spotlight fade-in">' +
-        '<div class="media"><img src="' + esc(b.image) + '" alt="LEGO render of ' + esc(b.title) + '"></div>' +
+        '<div class="media"><img tabindex="0" role="button" ' +
+          'aria-label="View ' + esc(b.title) + ' full screen" ' +
+          'data-full="' + esc(b.image) + '" data-caption="' + esc(b.title + " — by " + b.creator) + '" ' +
+          'src="' + esc(b.image) + '" alt="LEGO render of ' + esc(b.title) + '"></div>' +
         '<div class="body">' +
           "<h2>" + esc(b.title) + "</h2>" +
           '<p class="by">designed by ' + esc(b.creator) + "</p>" +
@@ -140,46 +146,92 @@
     "type-asc": { label: "Model type", fn: function (a, b) { return a.type.localeCompare(b.type) || a.title.localeCompare(b.title); } },
     "random": { label: "Surprise order", fn: function () { return Math.random() - 0.5; } },
   };
-  var FILTERS = {
-    all: { label: "All", fn: function () { return true; } },
-    pdf: { label: "PDF instructions", fn: function (b) { return primaryInstructions(b).kind === "pdf"; } },
-    video: { label: "Video", fn: function (b) { return primaryInstructions(b).kind === "video"; } },
+  // Facet filters. `values` fixed where order matters, else derived from the data.
+  var FACETS = {
+    complexity: {
+      label: "Complexity",
+      any: "Any complexity",
+      values: ["Easy", "Medium", "Challenging"],
+      get: function (b) { return difficulty(b.parts).label; },
+    },
+    type: {
+      label: "Type",
+      any: "Any type",
+      get: function (b) { return b.type; },
+    },
+    creator: {
+      label: "Designer",
+      any: "Any designer",
+      get: function (b) { return b.creator; },
+    },
+    instructions: {
+      label: "Instructions",
+      any: "Any instructions",
+      values: ["PDF", "Video", "Rebrickable"],
+      get: function (b) {
+        var k = primaryInstructions(b).kind;
+        return k === "pdf" ? "PDF" : k === "video" ? "Video" : "Rebrickable";
+      },
+    },
   };
+
+  function facetValues(key) {
+    if (FACETS[key].values) return FACETS[key].values.slice();
+    var seen = {};
+    BUILDS.forEach(function (b) { seen[FACETS[key].get(b)] = true; });
+    return Object.keys(seen).sort();
+  }
 
   function renderBrowse() {
     var sortKey = load("sort", "title-asc");
     if (!SORTS[sortKey]) sortKey = "title-asc";
-    var filterKey = load("filter", "all");
-    if (!FILTERS[filterKey]) filterKey = "all";
+    var active = load("facets", {});
+    Object.keys(active).forEach(function (k) {
+      if (!FACETS[k] || facetValues(k).indexOf(active[k]) < 0) delete active[k];
+    });
 
     var sortOptions = Object.keys(SORTS).map(function (k) {
       return '<option value="' + k + '"' + (k === sortKey ? " selected" : "") + ">" + esc(SORTS[k].label) + "</option>";
     }).join("");
-    var filterBtns = Object.keys(FILTERS).map(function (k) {
-      return '<button data-filter="' + k + '"' + (k === filterKey ? ' class="active"' : "") + ">" + esc(FILTERS[k].label) + "</button>";
+
+    var facetSelects = Object.keys(FACETS).map(function (k) {
+      var opts = ['<option value="">' + esc(FACETS[k].any) + "</option>"].concat(
+        facetValues(k).map(function (v) {
+          return '<option value="' + esc(v) + '"' + (active[k] === v ? " selected" : "") + ">" + esc(v) + "</option>";
+        })
+      ).join("");
+      return (
+        '<div class="field"><label for="f-' + k + '">' + esc(FACETS[k].label) + "</label>" +
+        '<select id="f-' + k + '" data-facet="' + k + '">' + opts + "</select></div>"
+      );
     }).join("");
 
     app.innerHTML =
       '<div class="view-head">' +
         "<h1>Browse the builds</h1>" +
-        "<p>Every alternative model we have instructions for, sorted and filtered your way.</p>" +
+        "<p>Every alternative model in the catalogue — sort and filter to find your next build.</p>" +
       "</div>" +
       '<div class="toolbar">' +
         '<div class="field"><label for="sort">Sort</label>' +
           '<select id="sort">' + sortOptions + "</select></div>" +
-        '<div class="filter-group" id="filters">' + filterBtns + "</div>" +
+        facetSelects +
+        '<button class="reset-filters" id="reset" hidden>Reset</button>' +
         '<span class="count" id="count"></span>' +
       "</div>" +
       '<div class="grid" id="grid"></div>';
 
     function paint() {
-      var list = BUILDS.filter(FILTERS[filterKey].fn).slice().sort(SORTS[sortKey].fn);
-      var grid = document.getElementById("grid");
-      var count = document.getElementById("count");
-      count.textContent = list.length + (list.length === 1 ? " build" : " builds");
-      grid.innerHTML = list.length
+      var list = BUILDS.filter(function (b) {
+        return Object.keys(active).every(function (k) { return FACETS[k].get(b) === active[k]; });
+      }).slice().sort(SORTS[sortKey].fn);
+
+      document.getElementById("count").textContent =
+        list.length + (list.length === 1 ? " build" : " builds") +
+        (Object.keys(active).length ? " of " + BUILDS.length : "");
+      document.getElementById("reset").hidden = Object.keys(active).length === 0;
+      document.getElementById("grid").innerHTML = list.length
         ? list.map(cardMarkup).join("")
-        : '<p class="empty">No builds match that filter.</p>';
+        : '<p class="empty">No builds match these filters.</p>';
     }
 
     document.getElementById("sort").addEventListener("change", function (e) {
@@ -187,12 +239,18 @@
       save("sort", sortKey);
       paint();
     });
-    document.getElementById("filters").addEventListener("click", function (e) {
-      var b = e.target.closest("button");
-      if (!b) return;
-      filterKey = b.getAttribute("data-filter");
-      save("filter", filterKey);
-      [].forEach.call(this.children, function (c) { c.classList.toggle("active", c === b); });
+    app.querySelectorAll("select[data-facet]").forEach(function (sel) {
+      sel.addEventListener("change", function () {
+        var k = sel.getAttribute("data-facet");
+        if (sel.value) active[k] = sel.value; else delete active[k];
+        save("facets", active);
+        paint();
+      });
+    });
+    document.getElementById("reset").addEventListener("click", function () {
+      Object.keys(active).forEach(function (k) { delete active[k]; });
+      save("facets", active);
+      app.querySelectorAll("select[data-facet]").forEach(function (s) { s.value = ""; });
       paint();
     });
 
@@ -252,6 +310,53 @@
     app.innerHTML = '<p class="empty">No build data found. Check that <code>data.js</code> loaded.</p>';
   }
 
+  /* ---------- lightbox (fullscreen image) ---------- */
+
+  var lightbox = null;
+
+  function ensureLightbox() {
+    if (lightbox) return lightbox;
+    lightbox = document.createElement("div");
+    lightbox.id = "lightbox";
+    lightbox.hidden = true;
+    lightbox.setAttribute("role", "dialog");
+    lightbox.setAttribute("aria-modal", "true");
+    lightbox.innerHTML =
+      '<button class="lb-close" aria-label="Close">&times;</button>' +
+      '<figure><img alt=""><figcaption></figcaption></figure>';
+    lightbox.addEventListener("click", function (e) {
+      if (e.target === lightbox || e.target.closest(".lb-close")) closeLightbox();
+    });
+    document.body.appendChild(lightbox);
+    return lightbox;
+  }
+
+  function openLightbox(src, caption) {
+    var lb = ensureLightbox();
+    lb.querySelector("img").src = src;
+    lb.querySelector("img").alt = caption || "";
+    lb.querySelector("figcaption").textContent = caption || "";
+    lb.hidden = false;
+    document.body.classList.add("lb-open");
+    lb.querySelector(".lb-close").focus();
+  }
+
+  function closeLightbox() {
+    if (!lightbox || lightbox.hidden) return;
+    lightbox.hidden = true;
+    document.body.classList.remove("lb-open");
+  }
+
+  app.addEventListener("click", function (e) {
+    var img = e.target.closest("img[data-full]");
+    if (img) openLightbox(img.getAttribute("data-full"), img.getAttribute("data-caption"));
+  });
+  app.addEventListener("keydown", function (e) {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    var img = e.target.closest("img[data-full]");
+    if (img) { e.preventDefault(); openLightbox(img.getAttribute("data-full"), img.getAttribute("data-caption")); }
+  });
+
   /* ---------- router ---------- */
 
   var routes = {
@@ -267,6 +372,7 @@
 
   function route() {
     var name = currentRoute();
+    closeLightbox();
     if (name !== "calendar" && countdownTimer) { clearInterval(countdownTimer); countdownTimer = null; }
     [].forEach.call(tabs.querySelectorAll("a"), function (a) {
       a.classList.toggle("active", a.getAttribute("data-route") === name);
@@ -277,6 +383,8 @@
 
   window.addEventListener("hashchange", route);
   document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") { closeLightbox(); return; }
+    if (lightbox && !lightbox.hidden) return;
     if (e.target.matches("input, select, textarea")) return;
     if ((e.key === "r" || e.key === "R") && currentRoute() === "random") renderRandom();
   });

@@ -1,15 +1,17 @@
 # 10698 Build Lab
 
 A tiny webapp for engaging with alternative build instructions for the LEGO® set
-**10698-1 – Large Creative Brick Box**. 50 alternative builds catalogued so far,
-every one buildable from just that one box.
+**10698-1 – Large Creative Brick Box**. 62 alternative builds catalogued so far,
+every one buildable from just that one box. Builds sold as paid ("PRO")
+instructions on Rebrickable are excluded — everything here has free instructions
+(local PDF, a Rebrickable free download, or a YouTube build video).
 
 ## Ways to engage
 
 | View | What it does |
 | --- | --- |
 | **Random** | Picks one alternative model at random ("your build for today"). Shuffle again with the button or the <kbd>R</kbd> key. |
-| **Browse** | Every catalogued build in a grid. Sort by name, part count, creator, model type or a random order; filter by instruction format (PDF / video). Your last sort + filter are remembered. |
+| **Browse** | Every catalogued build in a grid. Sort by name, part count, designer, type or a random order; filter by complexity, type, designer and instruction format (they combine). Click any render to view it full screen. Your last sort + filters are remembered. |
 | **Christmas calendar** | *Coming soon.* A 24-door festive calendar with a live countdown to 1 December. |
 
 ## Running it
@@ -45,8 +47,9 @@ assets/           shared images (10698-1 set box render for the footer)
 
 ## Instruction PDFs
 
-20 of 50 builds ship a local `instructions.pdf`; the rest fall back to a link
-(`instructions_url` — a Rebrickable MOC page, or a YouTube build video for two).
+29 of 62 builds ship a local `instructions.pdf` (every BrickBrush build plus a
+handful of others); the rest fall back to a link (`instructions_url` — a
+Rebrickable MOC page with a free download, or a YouTube build video for two).
 
 - **BrickBrush** builds — the designer hosts PDFs at `byteorbit.de/lego/models/`,
   so they were pulled directly with `curl` (no auth). The filename doesn't always
