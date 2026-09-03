@@ -43,6 +43,27 @@ assets/           shared images (10698-1 set box render for the footer)
    `instructions_url` = video / mirror / Rebrickable link).
 3. `node build-data.mjs`
 
+## Instruction PDFs
+
+20 of 50 builds ship a local `instructions.pdf`; the rest fall back to a link
+(`instructions_url` — a Rebrickable MOC page, or a YouTube build video for two).
+
+- **BrickBrush** builds — the designer hosts PDFs at `byteorbit.de/lego/models/`,
+  so they were pulled directly with `curl` (no auth). The filename doesn't always
+  match the model name (e.g. *Fall* → `graveyard.pdf`, *Pine Beach* → `pines.pdf`);
+  the real target is the redirect behind the MOC page's "View Building Instructions".
+- **Everyone else** — Rebrickable serves free MOC PDFs through short-lived signed
+  URLs on the Cloudflare-protected domain. `curl` can't reach them (403) and the
+  browser extension can't trigger or capture the download, so these can't be
+  automated from here. Fetch them by hand:
+
+  ```
+  node import-downloaded-pdfs.mjs --list     # prints the MOC pages to open
+  # open each, click the free "Download" button (files land in ~/Downloads
+  # named MOC-<id>_<designer>_<name>.pdf) — skip any that are PRO / paid
+  node import-downloaded-pdfs.mjs            # files them into builds/ + data.json
+  ```
+
 ## Bulk-collecting builds from Rebrickable
 
 The catalogue is expanded by browsing Rebrickable with the **Claude in Chrome**
