@@ -14,7 +14,7 @@ window.BUILDS = [
     "blurb": "A fairytale castle perched above a waterfall, framed by pine trees and a koi pond.",
     "url": "https://rebrickable.com/mocs/MOC-33594/BrickBrush/water-castle/",
     "image": "builds/10698-water-castle/image.png",
-    "instructions": "builds/10698-water-castle/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/water-castle.pdf",
     "instructions_url": "https://byteorbit.de/lego/models/water_castle.pdf"
   },
   {
@@ -27,7 +27,7 @@ window.BUILDS = [
     "blurb": "A rocky coastline with a striped lighthouse and crashing surf frozen in brick.",
     "url": "https://rebrickable.com/mocs/MOC-51845/BrickBrush/lighthouse/",
     "image": "builds/10698-lighthouse/image.png",
-    "instructions": "builds/10698-lighthouse/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/lighthouse.pdf",
     "instructions_url": "https://byteorbit.de/lego/models/lighthouse.pdf"
   },
   {
@@ -66,7 +66,7 @@ window.BUILDS = [
     "blurb": "A tall tropical macaw in full rainbow plumage, perched on a leafy stump.",
     "url": "https://rebrickable.com/mocs/MOC-68847/Lenarex/10698-rainbow-parrot/",
     "image": "builds/10698-rainbow-parrot/image.png",
-    "instructions": "builds/10698-rainbow-parrot/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/rainbow-parrot.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-68847/Lenarex/10698-rainbow-parrot/"
   },
   {
@@ -79,7 +79,7 @@ window.BUILDS = [
     "blurb": "A three-storey town house with a street-level bar and a jeweler's shop.",
     "url": "https://rebrickable.com/mocs/MOC-48599/Moe%20Brickman/10698-bar-and-jeweler-store-in-a-town-house/",
     "image": "builds/10698-bar-and-jeweler-store-in-a-town-house/image.jpg",
-    "instructions": "builds/10698-bar-and-jeweler-store-in-a-town-house/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/bar-and-jeweler-store-in-a-town-house.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-48599/Moe%20Brickman/10698-bar-and-jeweler-store-in-a-town-house/"
   },
   {
@@ -92,7 +92,7 @@ window.BUILDS = [
     "blurb": "A brick-built replica of a chunky digital SLR camera with a fat zoom lens.",
     "url": "https://rebrickable.com/mocs/MOC-30463/BrickBrush/dslr/",
     "image": "builds/10698-dslr/image.png",
-    "instructions": "builds/10698-dslr/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/dslr.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-30463/BrickBrush/dslr/"
   },
   {
@@ -105,7 +105,7 @@ window.BUILDS = [
     "blurb": "A police HQ with a rooftop helicopter, patrol car and motorbike sidecar.",
     "url": "https://rebrickable.com/mocs/MOC-58064/Moe%20Brickman/10698-police-department/",
     "image": "builds/10698-police-department/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/police-department.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-58064/Moe%20Brickman/10698-police-department/"
   },
   {
@@ -118,7 +118,7 @@ window.BUILDS = [
     "blurb": "A small galleon with billowing sails, crow's nest and a stern cabin.",
     "url": "https://rebrickable.com/mocs/MOC-76176/Moe%20Brickman/10698-pirate-ship/",
     "image": "builds/10698-pirate-ship/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/pirate-ship.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-76176/Moe%20Brickman/10698-pirate-ship/"
   },
   {
@@ -131,7 +131,7 @@ window.BUILDS = [
     "blurb": "A 4x12 diorama of a smoking volcano with a slow river of orange lava.",
     "url": "https://rebrickable.com/mocs/MOC-32628/BrickBrush/volcano/",
     "image": "builds/10698-volcano/image.png",
-    "instructions": "builds/10698-volcano/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/volcano.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-32628/BrickBrush/volcano/"
   },
   {
@@ -144,7 +144,7 @@ window.BUILDS = [
     "blurb": "A rocky 4x12 landscape scene with a cascade tumbling into a blue pool.",
     "url": "https://rebrickable.com/mocs/MOC-32046/BrickBrush/waterfall/",
     "image": "builds/10698-waterfall/image.png",
-    "instructions": "builds/10698-waterfall/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/waterfall.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-32046/BrickBrush/waterfall/"
   },
   {
@@ -157,7 +157,7 @@ window.BUILDS = [
     "blurb": "A space shuttle stack on the pad, boosters lit, mid lift-off.",
     "url": "https://rebrickable.com/mocs/MOC-35834/BrickBrush/lift-off/",
     "image": "builds/10698-lift-off/image.png",
-    "instructions": "builds/10698-lift-off/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/lift-off.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-35834/BrickBrush/lift-off/"
   },
   {
@@ -170,7 +170,7 @@ window.BUILDS = [
     "blurb": "A box-body delivery truck with an opening roof and a detachable trailer.",
     "url": "https://rebrickable.com/mocs/MOC-51690/Moe%20Brickman/10698-cargo-truck/",
     "image": "builds/10698-cargo-truck/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/cargo-truck.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-51690/Moe%20Brickman/10698-cargo-truck/"
   },
   {
@@ -183,7 +183,7 @@ window.BUILDS = [
     "blurb": "A desert mine entrance with timber framing, ore cart, rails and cacti.",
     "url": "https://rebrickable.com/mocs/MOC-53532/BrickBrush/mine/",
     "image": "builds/10698-mine/image.png",
-    "instructions": "builds/10698-mine/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/mine.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-53532/BrickBrush/mine/"
   },
   {
@@ -196,7 +196,7 @@ window.BUILDS = [
     "blurb": "A stubby farm tractor with big rear wheels and a raised driver's seat.",
     "url": "https://rebrickable.com/mocs/MOC-33891/BrickBrush/tractor/",
     "image": "builds/10698-tractor/image.png",
-    "instructions": "builds/10698-tractor/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/tractor.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-33891/BrickBrush/tractor/"
   },
   {
@@ -209,7 +209,7 @@ window.BUILDS = [
     "blurb": "A tall waterside cafe with a balcony, awnings and trees along the shoreline.",
     "url": "https://rebrickable.com/mocs/MOC-166936/ChiLegGodt/10698-cafe-by-the-lake/",
     "image": "builds/10698-cafe-by-the-lake/image.png",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/cafe-by-the-lake.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-166936/ChiLegGodt/10698-cafe-by-the-lake/"
   },
   {
@@ -222,7 +222,7 @@ window.BUILDS = [
     "blurb": "A wild-west saloon front with swinging doors, balcony and a hitching rail.",
     "url": "https://rebrickable.com/mocs/MOC-30304/BrickBrush/saloon/",
     "image": "builds/10698-saloon/image.png",
-    "instructions": "builds/10698-saloon/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/saloon.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-30304/BrickBrush/saloon/"
   },
   {
@@ -235,7 +235,7 @@ window.BUILDS = [
     "blurb": "A seasonal 4x12 vignette: blossoming trees, fresh grass and a bench.",
     "url": "https://rebrickable.com/mocs/MOC-40715/BrickBrush/spring/",
     "image": "builds/10698-spring/image.png",
-    "instructions": "builds/10698-spring/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/spring.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-40715/BrickBrush/spring/"
   },
   {
@@ -248,7 +248,7 @@ window.BUILDS = [
     "blurb": "A fire station with a roll-up door and a classic red vintage fire engine.",
     "url": "https://rebrickable.com/mocs/MOC-50057/Moe%20Brickman/10698-fire-department-vintage-fire-truck/",
     "image": "builds/10698-fire-department-vintage-fire-truck/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/fire-department-vintage-fire-truck.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-50057/Moe%20Brickman/10698-fire-department-vintage-fire-truck/"
   },
   {
@@ -261,7 +261,7 @@ window.BUILDS = [
     "blurb": "A dark-turquoise townhouse recreated in Classic bricks, bookshop next door.",
     "url": "https://rebrickable.com/mocs/MOC-182014/ChiLegGodt/10698-house-near-bookshop/",
     "image": "builds/10698-house-near-bookshop/image.png",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/house-near-bookshop.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-182014/ChiLegGodt/10698-house-near-bookshop/"
   },
   {
@@ -274,7 +274,7 @@ window.BUILDS = [
     "blurb": "A food truck with a lift-off roof, serving hatch and a giant donut sign.",
     "url": "https://rebrickable.com/mocs/MOC-52787/Moe%20Brickman/10698-donut-food-truck/",
     "image": "builds/10698-donut-food-truck/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/donut-food-truck.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-52787/Moe%20Brickman/10698-donut-food-truck/"
   },
   {
@@ -287,7 +287,7 @@ window.BUILDS = [
     "blurb": "An autumn 4x12 scene of orange and brown trees shedding their leaves.",
     "url": "https://rebrickable.com/mocs/MOC-53396/BrickBrush/fall/",
     "image": "builds/10698-fall/image.png",
-    "instructions": "builds/10698-fall/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/fall.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-53396/BrickBrush/fall/"
   },
   {
@@ -300,7 +300,7 @@ window.BUILDS = [
     "blurb": "A weathered corner building with boarded windows and a crumbling cornice.",
     "url": "https://rebrickable.com/mocs/MOC-39454/BrickBrush/old-building/",
     "image": "builds/10698-old-building/image.png",
-    "instructions": "builds/10698-old-building/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/old-building.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-39454/BrickBrush/old-building/"
   },
   {
@@ -313,7 +313,7 @@ window.BUILDS = [
     "blurb": "A family townhouse with an attached garage, a car and a scooter.",
     "url": "https://rebrickable.com/mocs/MOC-79929/Moe%20Brickman/10698-townhouse-with-garage-and-vehicles/",
     "image": "builds/10698-townhouse-with-garage-and-vehicles/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/townhouse-with-garage-and-vehicles.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-79929/Moe%20Brickman/10698-townhouse-with-garage-and-vehicles/"
   },
   {
@@ -326,7 +326,7 @@ window.BUILDS = [
     "blurb": "A small trawler with a wheelhouse, nets and crates of the day's catch.",
     "url": "https://rebrickable.com/mocs/MOC-51247/Moe%20Brickman/10698-fisher-boat/",
     "image": "builds/10698-fisher-boat/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/fisher-boat.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-51247/Moe%20Brickman/10698-fisher-boat/"
   },
   {
@@ -339,7 +339,7 @@ window.BUILDS = [
     "blurb": "A tiered park fountain with arcing water jets and a paved surround.",
     "url": "https://rebrickable.com/mocs/MOC-53290/BrickBrush/fountain/",
     "image": "builds/10698-fountain/image.png",
-    "instructions": "builds/10698-fountain/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/fountain.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-53290/BrickBrush/fountain/"
   },
   {
@@ -352,7 +352,7 @@ window.BUILDS = [
     "blurb": "A lopsided, many-storey cottage evoking the Weasley family home.",
     "url": "https://rebrickable.com/mocs/MOC-198042/ChiLegGodt/10698-a-hint-of-the-burrow/",
     "image": "builds/10698-a-hint-of-the-burrow/image.png",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/a-hint-of-the-burrow.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-198042/ChiLegGodt/10698-a-hint-of-the-burrow/"
   },
   {
@@ -365,7 +365,7 @@ window.BUILDS = [
     "blurb": "A lighthouse with a lantern room that actually spins on its base.",
     "url": "https://rebrickable.com/mocs/MOC-133753/caribear/rotating-lighthouse/",
     "image": "builds/10698-rotating-lighthouse/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/rotating-lighthouse.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-133753/caribear/rotating-lighthouse/"
   },
   {
@@ -378,7 +378,7 @@ window.BUILDS = [
     "blurb": "A retro filling station with a pump island, kiosk and a waiting car.",
     "url": "https://rebrickable.com/mocs/MOC-49022/Moe%20Brickman/10698-gas-station-car/",
     "image": "builds/10698-gas-station-car/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/gas-station-car.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-49022/Moe%20Brickman/10698-gas-station-car/"
   },
   {
@@ -391,7 +391,7 @@ window.BUILDS = [
     "blurb": "A corner shop with an apartment above, striped awning and display windows.",
     "url": "https://rebrickable.com/mocs/MOC-47901/Moe%20Brickman/10698-town-house-store/",
     "image": "builds/10698-town-house-store/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/town-house-store.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-47901/Moe%20Brickman/10698-town-house-store/"
   },
   {
@@ -404,7 +404,7 @@ window.BUILDS = [
     "blurb": "A suburban house with a pitched roof, garden fence and front porch.",
     "url": "https://rebrickable.com/mocs/MOC-63432/Moe%20Brickman/10698-family-house/",
     "image": "builds/10698-family-house/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/family-house.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-63432/Moe%20Brickman/10698-family-house/"
   },
   {
@@ -417,7 +417,7 @@ window.BUILDS = [
     "blurb": "A reworked fire station with engine bay, hose tower and sliding doors.",
     "url": "https://rebrickable.com/mocs/MOC-69781/Moe%20Brickman/10698-fire-department-version-2/",
     "image": "builds/10698-fire-department-version-2/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/fire-department-version-2.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-69781/Moe%20Brickman/10698-fire-department-version-2/"
   },
   {
@@ -430,7 +430,7 @@ window.BUILDS = [
     "blurb": "A 4x12 coastal scene with pines, dunes and gentle turquoise shallows.",
     "url": "https://rebrickable.com/mocs/MOC-54208/BrickBrush/pine-beach/",
     "image": "builds/10698-pine-beach/image.png",
-    "instructions": "builds/10698-pine-beach/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/pine-beach.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-54208/BrickBrush/pine-beach/"
   },
   {
@@ -443,7 +443,7 @@ window.BUILDS = [
     "blurb": "A swept-wing fighter jet on a display stand, canopy and tailfins picked out.",
     "url": "https://rebrickable.com/mocs/MOC-30139/BrickBrush/jet/",
     "image": "builds/10698-jet/image.png",
-    "instructions": "builds/10698-jet/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/jet.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-30139/BrickBrush/jet/"
   },
   {
@@ -456,7 +456,7 @@ window.BUILDS = [
     "blurb": "A chrome-and-red roadside diner with counter stools and a neon-style sign.",
     "url": "https://rebrickable.com/mocs/MOC-54056/Moe%20Brickman/10698-american-diner/",
     "image": "builds/10698-american-diner/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/american-diner.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-54056/Moe%20Brickman/10698-american-diner/"
   },
   {
@@ -469,7 +469,7 @@ window.BUILDS = [
     "blurb": "A 4x12 seascape of white-capped waves crashing against dark rocks.",
     "url": "https://rebrickable.com/mocs/MOC-32244/BrickBrush/stormy-sea/",
     "image": "builds/10698-stormy-sea/image.png",
-    "instructions": "builds/10698-stormy-sea/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/stormy-sea.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-32244/BrickBrush/stormy-sea/"
   },
   {
@@ -482,7 +482,7 @@ window.BUILDS = [
     "blurb": "A two-unit storefront: a bike repair shop beside a blooming florist.",
     "url": "https://rebrickable.com/mocs/MOC-66095/Moe%20Brickman/10698-repair-shop-flower-shop/",
     "image": "builds/10698-repair-shop-flower-shop/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/repair-shop-flower-shop.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-66095/Moe%20Brickman/10698-repair-shop-flower-shop/"
   },
   {
@@ -495,7 +495,7 @@ window.BUILDS = [
     "blurb": "A mobile crane with an extending lattice boom and outrigger legs.",
     "url": "https://rebrickable.com/mocs/MOC-79641/LEGOidea/10698-crane/",
     "image": "builds/10698-crane/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/crane.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-79641/LEGOidea/10698-crane/"
   },
   {
@@ -508,7 +508,7 @@ window.BUILDS = [
     "blurb": "A dense little 4x12 stand of pine and leafy trees over mossy ground.",
     "url": "https://rebrickable.com/mocs/MOC-31984/BrickBrush/forest/",
     "image": "builds/10698-forest/image.png",
-    "instructions": "builds/10698-forest/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/forest.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-31984/BrickBrush/forest/"
   },
   {
@@ -521,7 +521,7 @@ window.BUILDS = [
     "blurb": "A grey 4x12 vignette with bare trees, puddles and a lone umbrella.",
     "url": "https://rebrickable.com/mocs/MOC-32508/BrickBrush/rainy-day/",
     "image": "builds/10698-rainy-day/image.png",
-    "instructions": "builds/10698-rainy-day/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/rainy-day.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-32508/BrickBrush/rainy-day/"
   },
   {
@@ -534,7 +534,7 @@ window.BUILDS = [
     "blurb": "A corner restaurant with big windows, planters and pavement tables.",
     "url": "https://rebrickable.com/mocs/MOC-185826/ChiLegGodt/10698-the-restaurant/",
     "image": "builds/10698-the-restaurant/image.png",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/the-restaurant.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-185826/ChiLegGodt/10698-the-restaurant/"
   },
   {
@@ -547,7 +547,7 @@ window.BUILDS = [
     "blurb": "A festive vignette with a decorated tree, gifts and a snowy rooftop.",
     "url": "https://rebrickable.com/mocs/MOC-59043/Moe%20Brickman/10698-christmas-scene/",
     "image": "builds/10698-christmas-scene/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/christmas-scene.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-59043/Moe%20Brickman/10698-christmas-scene/"
   },
   {
@@ -560,7 +560,7 @@ window.BUILDS = [
     "blurb": "Three micro Minecraft vignettes — a ruined portal, a mushroom island and a small shack.",
     "url": "https://rebrickable.com/mocs/MOC-81537/sebbl/minecraft-from-classic-the-ruined-portal-mushroom-island-small-shack/",
     "image": "builds/10698-minecraft-classic-scenes/image.png",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/minecraft-classic-scenes.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-81537/sebbl/minecraft-from-classic-the-ruined-portal-mushroom-island-small-shack/"
   },
   {
@@ -573,7 +573,7 @@ window.BUILDS = [
     "blurb": "A rescue-style helicopter with a spinning top rotor and skid landing gear.",
     "url": "https://rebrickable.com/mocs/MOC-50763/Moe%20Brickman/10698-helicopter/",
     "image": "builds/10698-helicopter/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/helicopter.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-50763/Moe%20Brickman/10698-helicopter/"
   },
   {
@@ -586,7 +586,7 @@ window.BUILDS = [
     "blurb": "A tracked digger with an articulated boom and a toothed bucket.",
     "url": "https://rebrickable.com/mocs/MOC-55314/Moe%20Brickman/10698-excavator/",
     "image": "builds/10698-excavator/image.png",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/excavator.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-55314/Moe%20Brickman/10698-excavator/"
   },
   {
@@ -599,7 +599,7 @@ window.BUILDS = [
     "blurb": "A small brick-built deer standing in a 4x12 woodland patch.",
     "url": "https://rebrickable.com/mocs/MOC-32759/BrickBrush/oh-deer/",
     "image": "builds/10698-oh-deer/image.png",
-    "instructions": "builds/10698-oh-deer/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/oh-deer.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-32759/BrickBrush/oh-deer/"
   },
   {
@@ -612,7 +612,7 @@ window.BUILDS = [
     "blurb": "A 4x12 seaside diorama of cliffs, surf and a lone gull.",
     "url": "https://rebrickable.com/mocs/MOC-31758/BrickBrush/coast-view/",
     "image": "builds/10698-coast-view/image.png",
-    "instructions": "builds/10698-coast-view/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/coast-view.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-31758/BrickBrush/coast-view/"
   },
   {
@@ -638,7 +638,7 @@ window.BUILDS = [
     "blurb": "A sleek planing speedboat with a wraparound windscreen on a wake base.",
     "url": "https://rebrickable.com/mocs/MOC-31908/BrickBrush/speedboat/",
     "image": "builds/10698-speedboat/image.png",
-    "instructions": "builds/10698-speedboat/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/speedboat.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-31908/BrickBrush/speedboat/"
   },
   {
@@ -651,7 +651,7 @@ window.BUILDS = [
     "blurb": "A woodpecker on a tree trunk with a worm peeking from a rival hole.",
     "url": "https://rebrickable.com/mocs/MOC-199490/ChiLegGodt/10698-woodpecker-and-the-dodging-worm/",
     "image": "builds/10698-woodpecker-and-the-dodging-worm/image.png",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/woodpecker-and-the-dodging-worm.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-199490/ChiLegGodt/10698-woodpecker-and-the-dodging-worm/"
   },
   {
@@ -664,7 +664,7 @@ window.BUILDS = [
     "blurb": "A two-storey family house with an attached garage and a driveway.",
     "url": "https://rebrickable.com/mocs/MOC-75227/LEGOidea/10698-house-with-garage/",
     "image": "builds/10698-house-with-garage/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/house-with-garage.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-75227/LEGOidea/10698-house-with-garage/"
   },
   {
@@ -677,7 +677,7 @@ window.BUILDS = [
     "blurb": "A brick-built safe with a dial that actually locks and unlocks the door.",
     "url": "https://rebrickable.com/mocs/MOC-215636/ChiLegGodt/10698-working-combination-safe/",
     "image": "builds/10698-working-combination-safe/image.png",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/working-combination-safe.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-215636/ChiLegGodt/10698-working-combination-safe/"
   },
   {
@@ -690,7 +690,7 @@ window.BUILDS = [
     "blurb": "A raised stilt house with a sun deck, ladder and palm beside the water.",
     "url": "https://rebrickable.com/mocs/MOC-78759/Moe%20Brickman/10698-beach-house/",
     "image": "builds/10698-beach-house/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/beach-house.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-78759/Moe%20Brickman/10698-beach-house/"
   },
   {
@@ -703,7 +703,7 @@ window.BUILDS = [
     "blurb": "A mechanical fish sculpture whose tail swishes when you turn the crank.",
     "url": "https://rebrickable.com/mocs/MOC-201100/ChiLegGodt/10698-swimming-fish/",
     "image": "builds/10698-swimming-fish/image.png",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/swimming-fish.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-201100/ChiLegGodt/10698-swimming-fish/"
   },
   {
@@ -716,7 +716,7 @@ window.BUILDS = [
     "blurb": "A tiny rocking cradle that actually tips back and forth.",
     "url": "https://rebrickable.com/mocs/MOC-30273/BrickBrush/cradle/",
     "image": "builds/10698-cradle/image.png",
-    "instructions": "builds/10698-cradle/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/cradle.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-30273/BrickBrush/cradle/"
   },
   {
@@ -729,7 +729,7 @@ window.BUILDS = [
     "blurb": "A tipper truck with a bed that lifts and a tailgate that drops.",
     "url": "https://rebrickable.com/mocs/MOC-52363/Moe%20Brickman/10698-dump-truck/",
     "image": "builds/10698-dump-truck/image.jpg",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/dump-truck.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-52363/Moe%20Brickman/10698-dump-truck/"
   },
   {
@@ -742,7 +742,7 @@ window.BUILDS = [
     "blurb": "A small palace facade with a balcony where a crowned figure addresses the crowd.",
     "url": "https://rebrickable.com/mocs/MOC-65406/BrickBrush/the-kings-speech/",
     "image": "builds/10698-the-kings-speech/image.png",
-    "instructions": "builds/10698-the-kings-speech/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/the-kings-speech.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-65406/BrickBrush/the-kings-speech/"
   },
   {
@@ -755,7 +755,7 @@ window.BUILDS = [
     "blurb": "A chunky blue frog mid-hop on a lily-pad base.",
     "url": "https://rebrickable.com/mocs/MOC-30097/BrickBrush/blue-frog/",
     "image": "builds/10698-blue-frog/image.png",
-    "instructions": "builds/10698-blue-frog/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/blue-frog.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-30097/BrickBrush/blue-frog/"
   },
   {
@@ -768,7 +768,7 @@ window.BUILDS = [
     "blurb": "A building site 4x12 scene with scaffolding, a skip and warning barriers.",
     "url": "https://rebrickable.com/mocs/MOC-32348/BrickBrush/under-construction/",
     "image": "builds/10698-under-construction/image.png",
-    "instructions": "builds/10698-under-construction/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/under-construction.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-32348/BrickBrush/under-construction/"
   },
   {
@@ -781,7 +781,7 @@ window.BUILDS = [
     "blurb": "A low two-seat convertible sports car with chrome bumpers.",
     "url": "https://rebrickable.com/mocs/MOC-30157/BrickBrush/roadster/",
     "image": "builds/10698-roadster/image.png",
-    "instructions": "builds/10698-roadster/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/roadster.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-30157/BrickBrush/roadster/"
   },
   {
@@ -794,7 +794,7 @@ window.BUILDS = [
     "blurb": "A poseable walker mech that rebuilds into two more configurations.",
     "url": "https://rebrickable.com/mocs/MOC-83509/Moe%20Brickman/10698-3in1-titan-mech/",
     "image": "builds/10698-3in1-titan-mech/image.png",
-    "instructions": null,
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/3in1-titan-mech.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-83509/Moe%20Brickman/10698-3in1-titan-mech/"
   },
   {
@@ -807,7 +807,7 @@ window.BUILDS = [
     "blurb": "A miniature hand coffee grinder with a turning crank handle.",
     "url": "https://rebrickable.com/mocs/MOC-30119/BrickBrush/coffee-grinder/",
     "image": "builds/10698-coffee-grinder/image.png",
-    "instructions": "builds/10698-coffee-grinder/instructions.pdf",
+    "instructions": "https://storage.googleapis.com/lillefar-com-lego-10698/coffee-grinder.pdf",
     "instructions_url": "https://rebrickable.com/mocs/MOC-30119/BrickBrush/coffee-grinder/"
   }
 ];
