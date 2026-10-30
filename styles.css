@@ -414,7 +414,22 @@ kbd {
 .based-on-body p { margin: 0; color: var(--text-soft); font-size: .9rem; max-width: 52ch; }
 .based-on-body .btn { align-self: flex-start; margin-top: 6px; }
 
+.creator { margin-top: 16px; }
+.based-on.creator img {
+  width: clamp(96px, 18vw, 132px);
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--yellow);
+}
+.creator h2 em { font-style: normal; color: var(--red); }
+@media (prefers-color-scheme: dark) { .creator h2 em { color: var(--yellow); } }
+.creator-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.creator-links .btn { font-size: .88rem; padding: 8px 14px; }
+
 @media (max-width: 560px) {
+  .creator-links { justify-content: center; }
   .based-on { flex-direction: column; text-align: center; align-items: center; }
   .based-on-body { align-items: center; }
   .based-on-body .btn { align-self: center; }
